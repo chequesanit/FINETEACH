@@ -445,6 +445,7 @@ h2.card-item:hover{
     justify-content: space-between;
     display: flex;
 }
+
 .video-container{
     width: 100%;
     height: 100vh;
@@ -553,7 +554,6 @@ h2.card-item:hover{
     height: 60px;
     width: 60px;
     background: #E95605;
-    /* color: #fff; */
     object-fit: cover;
     display: flex;
     align-items: center;
@@ -2303,15 +2303,16 @@ font-weight: 700;
 @media (max-width: 600px){ 
     body{
         overflow:scroll;
-        padding: 12px 20px;
+        padding: 12px 0px;
     }
+    
     header {
-        padding: 12px 44px;
+        padding: 12px 10px;
         width: 100%;
     }
     
     section {
-        padding: 100px 45px;
+        padding: 100px 10px;
     }
 
 
@@ -2339,7 +2340,7 @@ font-weight: 700;
         text-decoration: none;
         margin-left: 49px;
         transition: 0.4s ease-in-out;
-    }
+    } 
 
     header .navigation .navigation-items a::before{
         height: 5px;
@@ -2381,26 +2382,334 @@ font-weight: 700;
         right: 0;
     } 
     
-.home video{
-    z-index: -2;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    background: rgba(0, 0, 0, 0.4);
-}
-.home .content h1{
-    position: absolute;
-    top: 35%;
-    font-size: 33px;
-    width: 350px;
-    margin-bottom: 20px;
-}
-} 
+    .home video{
+        z-index: -2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 124vh;
+        object-fit: cover;
+        background: rgba(0, 0, 0, 0.4);
+        }
 
-@media screen and (max-width: 991px) {
+    .home .content h1{
+        position: relative;
+        bottom: 4rem;
+        font-size: 35px;
+        font-weight: 700;
+        width: 23.5rem;
+        margin-bottom: 20px; 
+    } 
+
+    .home .content p{
+        position: relative;
+        bottom: 4rem;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        width: 21.8rem;
+        margin-bottom: 20px; 
+    } 
+
+    .more{
+        margin-top:1px;
+    } 
+
+    .hero{
+        padding: 3.5rem 12px;
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        background: #E8F8F1;
+    }
+    
+    .hero img{
+        width: 415px;
+        height: 290px;
+    }
+
+    .big{
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        font-weight: 700;
+    }
+    
+
+    .small{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    
+    .line{
+        margin-top: 3rem;
+        margin-bottom: 20px;
+    }
+    
+    .all-num{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .num h1{
+        color: var(--primary-brown);
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    
+    .num p{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    
+    .service{
+        padding: 60px 12px;
+    }
+    
+    .our{
+        display: block;
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    h1.ser{
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--primary);
+        font-family: "Playfair Display", sans-serif;
+    }
+    
+    
+    .disk{
+        margin-top: 1rem;
+        margin-left:1px;
+        background: #E95605;
+        width: 10.4rem;
+        height: 3.7rem;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .vice{
+        justify-content: center;
+        align-items: center;
+        padding: 0px 12px;
+        display: block;
+    }
+
+    .card{margin-top: 2rem;
+        padding: 2rem 2rem;
+        width: 26rem;
+        height: 13.6rem;
+    }
+
+    .video-container{
+        display: inline-block;
+        width: 100%;
+        height: 150vh;
+        position: relative;
+        margin-top: 50px;
+    }
+    
+    #video{
+        z-index: -2;
+        position: absolute;
+    
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    
+    }
+    
+    .unique{
+        background: #2a5240ea;
+        margin-top: 18.7rem;
+        width: 900px;
+        height: 90vh;
+        color: #fff;
+        align-items: center;
+    }
+    
+    .video-big{
+        align-items: center;
+        padding: 0rem 12px;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 95px;
+        
+    }
+    
+    .video-small{
+        padding: 0rem 12px;
+        margin-top: 19px;
+        font-size: 16px;
+    }
+    
+    .butt .join{
+        width: 90px;
+        
+        margin-top: 34rem;
+        color: #fff;
+        align-items: center;
+        width: 10rem;
+        height: 3.4rem;
+    }
+    
+
+    #menu{
+        width: 90px;
+        position: absolute;
+        top: 0;
+        left: 43%;
+        margin-top: 8rem;
+    }
+
+    .btn2 span i{
+        height: 55px;
+        width: 55px;
+    }
+
+    .case{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #disk{
+        background: #E95605;
+        width: 10rem;
+        height: 3.4rem;
+        border: 1px solid #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 9px;
+        font-family: "Satoshi", sans-serif;
+        color: #fff;
+        margin-left: 52rem;
+    }
+
+    
+    h1.showe{
+        padding: 20px 12px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .collection{
+        display: block;
+        padding: 0px 12px;
+    }
+
+        
+    .wrapper{
+        border-radius: 10px;
+        width: 26rem;
+        height: 17rem;
+    
+    }
+
+
+.wrapper-two{
+    width: 26rem;
+    height: 17rem;
+    margin-top: 2rem;
+}
+
+
+.wrapper-third{
+    margin-top: 1rem;
+    height: 80%;
+    width: 98%;
+}
+
+
+    
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 991px) {
     .w-nav[data-collapse="medium"] .w-nav-menu {
     display: none;
     }
@@ -2432,4 +2741,4 @@ font-weight: 700;
     .w-nav[data-collapse="tiny"] .w-nav-button {
     display: block;
     }
-}
+} */
