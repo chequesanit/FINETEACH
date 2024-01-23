@@ -81,8 +81,6 @@ ul li ul.blog p {
     display: flex;
     padding: 10px 22px;
     color: black;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .left{
@@ -1935,6 +1933,11 @@ font-weight: 700;
 
 /* ========================SHOWCASES=================== */
 
+header.scrolled{
+    background: #2a5240;
+    opacity: 21;
+}
+
 .upper{
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)) ,url(./image/krukau-7693109.webp);
     background-size: cover;
@@ -1996,8 +1999,7 @@ a.mar:hover{
 .nation{
     display: flex;
     padding: 0px 45px;
-    /* position: relative;
-    bottom: 4rem; */
+
 }
 
 
@@ -2043,6 +2045,22 @@ h2.collected{
 }
 
 
+/* ===========================SERVICE=============== */
+header.scrolled{
+    background: #2a5240;
+    opacity: 21;
+}
+
+
+.pages-blog{
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)) ,url(./image/alphatradezone-5833272.webp);
+    min-height: 380px;
+    background-color: var(--primary);
+    background-position: 0 0, 50% 10%;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+    align-items: center;
+}
 
 
 
@@ -2052,16 +2070,224 @@ h2.collected{
 
 
 
+/* ================================BLOG=========================== */
 
 
+header.scrolled{
+    background: #2a5240;
+    opacity: 21;
+}
 
 
+.banner-pages-blog{
+        min-height: 380px;
+        background-color: var(--primary);
+        background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .5)), url(./image/6565e82322a3bca4288390a9_pexels-yan-krukau-7693107.webp);
+        background-position: 0 0, 50% 28%;
+        background-size: auto, cover;
+        align-items: center;
+}
 
 
+.ship{
+    display: flex;
+    padding: 80px 45px;
+    height: 100vh;
+}
+
+h2.collected{
+    color: var(--primary);
+    font-family: "Playfair Display", sans-serif;
+}
+
+.collected:hover{
+    color: #E95605;
+}
+
+.branch p.text-list{
+    margin-top: 7px;
+    font-family: "Satoshi", sans-serif;
+    color: #2a5240;
+}
+
+.wrapper-top{
+    border-radius: 10px;
+    width: 93%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.wrapper-top img:hover{
+    transform: scale(1.1);
+}
+
+.wrapper-top img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.span-box{
+    margin-top: 1rem;
+}
+
+.span-box a.list-wrapper{
+    color: #E95605;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a.list-wrapper:hover{
+    color: #2a5240;
+}
+
+.money{
+    border-bottom: 2px solid var(--primary-brown);
+}
+
+a.list-wrapper .money:hover{
+    border-bottom: 2px solid #2A5240;
+}
 
 
+.table-box{
+    padding: 100px 45px;
+    background: #2A5240;
+    margin-top: 4rem;
+}
+
+.vice-set{
+    margin-top: 6rem;
+    padding: 0px 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.cloth{
+    margin-top: 2rem;
+    padding: 0px 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.matter{
+    margin-top: 2rem;
+    padding: 0px 50px;
+    justify-content: space-between;
+    display: flex;
+}
 
 
+.action{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    background: #E8F8F1;
+    padding: 80px 45px;
+}
+
+.action-one h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #2A5240;
+    font-family: "Playfair Display", sans-serif;;
+}
+
+.action-one li{
+    color: #E95605;
+    
+}
+
+.action-one p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2A5240;
+}
+
+.local{
+    background: #E95605;
+    width: 10rem;
+    height: 3.4rem;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Satoshi", sans-serif;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.local:hover{
+    background: transparent;
+    border: 1px solid #E95605;
+    color: #E95605;
+}
+
+.classic img{
+    width: 30rem;
+    height: 22rem;
+    border-radius: 8px;
+}
+
+
+.group-lunch{
+    margin-top: 4rem;
+    padding: 60px 45px;
+    align-items: center;
+    text-align: center;
+    height: 130vh;
+    
+}
+
+.group-lunch h6{
+    font-family: "Playfair Display", sans-serif;
+    color: #E95605;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.group-game{
+    align-items: center;
+    text-align: center;
+    padding: 0px 30rem;
+}
+
+#group-big{
+    border-bottom: 2px solid var(--primary-brown);
+    color: var(--primary-brown);
+    border-radius: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    font-weight: 700;
+}
+
+.group-lunch h2{
+    font-family: "Playfair Display", sans-serif;
+    margin-top: 2rem;
+font-size: 50px;
+font-weight: 700;
+    color: #2A5240;
+}
+
+.group-lunch p{
+    color: #2A5240 ;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.footer-club{
+    margin-top: rem;
+    padding: 100px 45px;
+    background: #2A5240;
+}
 
 
 
