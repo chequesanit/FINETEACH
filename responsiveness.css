@@ -1,0 +1,530 @@
+@media (max-width: 600px){ 
+    body{
+        padding: 0;
+        margin: 0;
+        overflow:scroll;
+    }
+    
+    header {
+        padding: 0px 15px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    section {
+        padding: 0px 15px;
+    }
+
+
+    .navigation {
+        display:flex;
+        flex-wrap: wrap;
+        display: none;
+    }
+
+    header .navigation.active{
+        position: fixed;
+        width: 100%;
+        height: 30vh;
+        left: 9rem;
+        display: none;
+        background: #fff;
+    }
+
+    header .navigation .navigation-items{
+        width: 600px;
+        
+        padding: 40px;
+        display: inline;
+        border-radius: 5px;
+        
+    }
+
+    header .brand img{
+        width: 110px;
+        height: 70px;
+    }
+
+    .menu-btn img{
+        background: url(menu.png)no-repeat;
+        background-size: 30px;
+        background-position: center;
+        cursor: pointer;
+        margin-left: 14rem;
+        display: flex;
+        transition: 0.3s ease;
+    }
+
+    .menu-btn img.active{
+        z-index: 999;
+        background: url(close.png)no-repeat;
+        background-size: 25px;
+        background-position: center;
+        transition: 0.3s ease;
+    }
+
+    .home{
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding-top: 80px;
+        height: 100vh;
+    } 
+    
+    .home video{
+        z-index: -2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 124vh;
+        object-fit: cover;
+        background: rgba(0, 0, 0, 0.4);
+        }
+
+    .home .content h1{
+        position: relative;
+        bottom: 6rem;
+        font-size: 34px;
+        font-weight: 700;
+        width: 23rem;
+
+    } 
+
+    .home .content p{
+        position: relative;
+        bottom: 6rem;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        width: 21.8rem;
+        margin-bottom: 20px; 
+    } 
+
+    .more{
+        margin-top: -3rem;
+    } 
+
+    .hero{
+        padding: 3.5rem 15px;
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        background: #E8F8F1;
+    }
+    
+    .hero img{
+        width: 400px;
+        height: 290px;
+    }
+
+    .big{
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        font-weight: 700;
+    }
+    
+
+    .small{
+        margin-top: 20px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+    
+    
+    .line{
+        margin-top: 3rem;
+        margin-bottom: 20px;
+    }
+    
+    .all-num{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .num h1{
+        font-size: 40px;
+    }
+    
+    .num p{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .service{
+        padding: 20px 15px;
+    }
+    
+    .our{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    h1.ser{
+        font-size: 32px;
+        font-weight: 700;
+        color: var(--primary);
+        font-family: "Playfair Display", sans-serif;
+    }
+    
+    
+    .disk{
+        margin-top: 1rem;
+        margin-left:1px;
+        background: #E95605;
+        width: 10.4rem;
+        height: 3.7rem;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .vice{
+        justify-content: center;
+        align-items: center;
+        padding: 0px 15px;
+        display: block;
+    }
+
+    .card{
+        margin-top: 1rem;
+        padding: 2rem 1rem;
+        width: 24rem;
+        height: 13rem;
+    }
+
+
+    .video-container{
+        display: inline-block;
+        width: 100%;
+        height: 150vh;
+        position: relative;
+        margin-top: 30px;
+    }
+    
+    #video{
+        z-index: -2;
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .unique{
+        margin-top: 18.7rem;
+        width: 100%;
+        height: 75vh;
+        align-items: center;
+    }
+    
+    .video-big{
+        align-items: center;
+        padding: 0rem 15px;
+        font-size: 27px;
+        font-weight: 700;
+        margin-top: 3rem;
+        
+    }
+    
+    .video-small{
+        padding: 0rem 12px;
+        margin-top: 19px;
+        font-size: 15px;
+    }
+    
+    .butt .join{
+        width: 90px;  
+        margin-top: 35rem;
+        width: 10rem;
+        height: 3.4rem;
+    }
+    
+
+    #menu{
+        width: 90px;
+        position: absolute;
+        top: 0;
+        left: 43%;
+        margin-top: 8rem;
+    }
+
+    .btn2 span i{
+        height: 55px;
+        width: 55px;
+    }
+
+    .show-case{
+        padding: 0px 15px;
+        
+    }
+
+    .case{
+        margin-top: 0px;
+        padding: 0px 15px;
+        display: block;
+        text-align: center;
+
+    }
+    
+    #disk{
+        background: #E95605;
+        width: 10rem;
+        height: 3.4rem;
+        border: 1px solid #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 9px;
+        font-family: "Satoshi", sans-serif;
+        color: #fff;
+        margin-left: 52rem;
+    }
+
+
+
+    
+    h1.showe{
+        padding: 0px 15px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .collection{
+        display: block;
+        padding: 0px 12px;
+    }
+
+        
+    .wrapper{
+        margin-top: 2rem;
+        border-radius: 10px;
+        height: 80%;
+        width: 95%;
+    
+    }
+
+
+.wrapper-two{
+    height: 80%;
+    width: 95%;
+    margin-top: 2rem;
+}
+
+.wrapper-third{
+    margin-top: 1rem;
+    height: 80%;
+    width: 95%;
+}
+
+.faq{
+    padding: 10px 15px;
+}
+
+.shot{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--primary);
+    font-family: "Playfair Display", sans-serif;
+}
+
+.format{
+    text-align: center;
+    display: block;
+}
+
+#hover{
+    width: 10rem;
+    height: 3.4rem;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+    .accordion-title-wrapp{
+        padding: 1px 15px;
+        display: block;
+    }
+
+    .wrap-one-column{
+        padding: 1rem;
+    }
+
+    .wrap-one-column h4{
+        font-size: 25px;
+    }
+
+
+    /* =============================QUOTE======================== */
+
+    .quote{
+        margin-top: 3rem;
+        padding: 0px 15px;
+    }
+
+    h4.happy{
+        padding: 3rem 15px;
+        font-size: 20px;
+    }
+
+    .quote-text{
+        margin-top: 1px;
+        font-size: 28px;
+    }
+
+
+    .quote-card{
+        display: block;
+        padding: 19px 15px;
+    }
+
+    .quote-box{
+        width: 100%;
+        height: 7rem;
+        margin-top: 1rem;
+    }
+
+    #quote-box{
+        margin-top: 1rem;
+        width: 100%;
+        height: 7rem;
+    }
+
+
+    .top{
+        padding: 25px 15px;
+    }
+
+    .news{
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    #disk{
+        margin-left:1px;
+        margin-top: 1rem;
+    }
+
+    h1.top-show{
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .news-top{
+        display: block;
+        padding: 1px 15px;
+    }
+    
+    .wrapper-top{
+        margin-top: 2rem;
+        width: 93%;
+        height: 70%;
+        overflow: hidden;
+    }
+    
+    .span-box a.list-wrapper{
+        color: #E95605;
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .footer{
+        margin-top: 2rem;
+        padding: 50px 15px;
+    }
+    
+    .fintech-image img{
+        width: 130px;
+    }
+    
+    .social{
+        display: block;
+        text-align: center;
+    }
+    
+    .social-icon .bx{
+        font-size: 1.5rem;
+    }
+    
+    .social-icon {
+        gap: 12rem;
+        display: block;
+    }
+
+    .footer-ending{
+        padding: 0px 15px;
+        grid-column-gap: 75px;
+        justify-content: center;
+        grid-row-gap: 50px;
+        flex-wrap: wrap;
+    }
+    
+    .demos .head{
+        font-size: 22px;
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 700;
+    }
+    
+    .demos-set .head{
+        font-size: 22px;
+        font-family: "Playfair Display", sans-serif;
+        font-weight: 700;
+    }
+    
+
+    
+
+    .demos{
+        line-height: 2rem;
+    }
+    
+    .demos p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    #sub{
+        background: #E95605;
+        width: 13rem;
+        height: 3.4rem;
+        border: 1px solid transparent;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: "Satoshi", sans-serif;
+        color: #fff;
+        
+    }
+    
+    #sub:hover{
+        background: transparent;
+        border: 1px solid #E95605;
+        color: #E95605;
+    }
+    
+    /* =====================COPYRIGHT====================== */
+    
+    .copyright{
+        padding: 50px 15px;
+    }
+    
+    .copyright p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+
+
+
+
+
+}
