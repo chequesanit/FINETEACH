@@ -519,9 +519,128 @@
     }
 
 
+/* =============================BLOG===RESPONSIVENESS================= */
+    .banner-pages-blog{
+        min-height: 280px;
+        background-position: 0 0, 30% 30%;
+        background-size: cover;
+        object-fit: cover;
+        align-items: center;
+    }   
+
+    .upper-showcase h1{
+        font-size: 40px;
+        margin-top: 60px;
+    }
 
 
+    .ship{
+        display: inline-block;
+        padding: 10px 15px;
+        height: 100vh;
+    }
+
+    .branch{
+        margin-top: 1rem;
+    }
 
 
+    .wrapper-top{
+        border-radius: 10px;
+        width: 98%;
+        height: 70%;
+        overflow: hidden;
+    }
+
+
+    .wrapper-top img{
+        object-fit: cover;
+        height: 90%;
+        width: 100%;
+
+    }
+
+    /* =======================SHOWE==CASE=========== */
+
+    .upper{
+        background-size: cover;
+        background-position:center;
+        width: 100%;
+        object-fit: cover;
+        height: 290px;
+        z-index: -1;
+        top: 0%;
+        
+    }
+    
+    .upper-showcase{
+        padding: 53px 15px;
+    }
+    
+    .upper-showcase h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    
+    .market{
+        padding: 30px 15px;
+    }
+    
+    .mark{
+        display: inline-block;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .mark a{
+        text-decoration: none;
+        font-size: 18px;
+    }
+    
+    
+    .nation{
+        display: block;
+        padding: 0px 15px;
+    
+    }
+    
+    .combination{
+        display: block;
+        padding: 20px 15px;
+        justify-content: space-between;
+    }
+    
+    .wrapper-nation{
+        border-radius: 10px;
+        width: 99%;
+        height: 70%;
+        overflow: hidden;
+    }
+    
+    
+    .wrapper-nation img{
+        object-fit: cover;
+        height: 70%;
+        width: 99%;
+    }
+    
+    
+    /* ===========================SERVICE=============== */
+    header.scrolled{
+        background: #2a5240;
+        opacity: 21;
+    }
+    
+    
+    .pages-blog{
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)) ,url(./image/alphatradezone-5833272.webp);
+        min-height: 380px;
+        background-color: var(--primary);
+        background-position: 0 0, 50% 10%;
+        background-repeat: repeat, no-repeat;
+        background-size: auto, cover;
+        align-items: center;
+    }
 
 }
