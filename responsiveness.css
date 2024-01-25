@@ -9,7 +9,7 @@
         padding: 0px 15px;
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        
     }
     
     section {
@@ -19,25 +19,23 @@
 
     .navigation {
         display:flex;
-        flex-wrap: wrap;
         display: none;
     }
 
     header .navigation.active{
         position: fixed;
-        width: 100%;
+        width: 50%;
         height: 30vh;
-        left: 9rem;
+        left: 10rem;
         display: none;
-        background: #fff;
+        background: #54b337; 
     }
 
     header .navigation .navigation-items{
         width: 600px;
+        padding: 60px;
+        display:none;
         
-        padding: 40px;
-        display: inline;
-        border-radius: 5px;
         
     }
 
@@ -51,8 +49,11 @@
         background-size: 30px;
         background-position: center;
         cursor: pointer;
-        margin-left: 14rem;
+        margin-left: 19rem;
         display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
         transition: 0.3s ease;
     }
 
@@ -69,7 +70,7 @@
         left: 0;
         right: 0;
         padding-top: 80px;
-        height: 100vh;
+        height: 90vh;
     } 
     
     .home video{
@@ -78,32 +79,32 @@
         top: 0;
         left: 0;
         width: 100%;
-        height: 124vh;
+        height: 130vh;
         object-fit: cover;
         background: rgba(0, 0, 0, 0.4);
         }
 
     .home .content h1{
         position: relative;
-        bottom: 6rem;
-        font-size: 34px;
+        bottom: 3rem;
+        font-size: 42px;
         font-weight: 700;
-        width: 23rem;
+        width: 100%;
 
     } 
 
     .home .content p{
         position: relative;
-        bottom: 6rem;
+        bottom:2rem;
         font-size: 16px;
         font-weight: 400;
         color: #fff;
         width: 21.8rem;
-        margin-bottom: 20px; 
+        margin-bottom: 15px; 
     } 
 
     .more{
-        margin-top: -3rem;
+        margin-top: -rem;
     } 
 
     .hero{
@@ -115,7 +116,7 @@
     }
     
     .hero img{
-        width: 400px;
+        width: 99%;
         height: 290px;
     }
 
@@ -219,7 +220,7 @@
     .unique{
         margin-top: 18.7rem;
         width: 100%;
-        height: 75vh;
+        height: 60vh;
         align-items: center;
     }
     
@@ -228,7 +229,7 @@
         padding: 0rem 15px;
         font-size: 27px;
         font-weight: 700;
-        margin-top: 3rem;
+        margin-top: 3px;
         
     }
     
@@ -239,10 +240,7 @@
     }
     
     .butt .join{
-        width: 90px;  
-        margin-top: 35rem;
-        width: 10rem;
-        height: 3.4rem;
+        margin-top: 33rem;
     }
     
 
@@ -260,12 +258,11 @@
     }
 
     .show-case{
-        padding: 0px 15px;
-        
+        padding: 0px 45px;
     }
 
     .case{
-        margin-top: 0px;
+        margin-bottom: 47rem;
         padding: 0px 15px;
         display: block;
         text-align: center;
