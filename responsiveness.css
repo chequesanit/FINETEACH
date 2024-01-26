@@ -19,7 +19,7 @@
 
     .navigation {
         display:flex;
-        display: none;
+        display: block;
     }
 
     header .navigation.active{
@@ -35,8 +35,6 @@
         width: 600px;
         padding: 60px;
         display:none;
-        
-        
     }
 
     header .brand img{
@@ -69,8 +67,7 @@
         width: 100%;
         left: 0;
         right: 0;
-        padding-top: 80px;
-        height: 90vh;
+        height: 10vh;
     } 
     
     .home video{
@@ -104,7 +101,7 @@
     } 
 
     .more{
-        margin-top: -rem;
+        margin-top: rem;
     } 
 
     .hero{
@@ -175,7 +172,6 @@
         font-family: "Playfair Display", sans-serif;
     }
     
-    
     .disk{
         margin-top: 1rem;
         margin-left:1px;
@@ -204,7 +200,8 @@
     .video-container{
         display: inline-block;
         width: 100%;
-        height: 150vh;
+        height: 
+        50vh;
         position: relative;
         margin-top: 30px;
     }
@@ -240,7 +237,7 @@
     }
     
     .butt .join{
-        margin-top: 33rem;
+        margin-top: 38rem;
     }
     
 
@@ -262,30 +259,22 @@
     }
 
     .case{
-        margin-bottom: 47rem;
+        margin-top: 24rem;
         padding: 0px 15px;
         display: block;
         text-align: center;
-
     }
     
     #disk{
         background: #E95605;
         width: 10rem;
         height: 3.4rem;
-        border: 1px solid #fff;
+        border: 1px solid transparent;
         font-size: 16px;
         font-weight: 700;
-        text-decoration: none;
-        border-radius: 9px;
-        font-family: "Satoshi", sans-serif;
-        color: #fff;
-        margin-left: 52rem;
+        
     }
 
-
-
-    
     h1.showe{
         padding: 0px 15px;
         font-size: 30px;
@@ -297,7 +286,6 @@
         padding: 0px 12px;
     }
 
-        
     .wrapper{
         margin-top: 2rem;
         border-radius: 10px;
@@ -634,13 +622,170 @@
     
     
     .pages-blog{
-        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)) ,url(./image/alphatradezone-5833272.webp);
-        min-height: 380px;
-        background-color: var(--primary);
-        background-position: 0 0, 50% 10%;
-        background-repeat: repeat, no-repeat;
-        background-size: auto, cover;
-        align-items: center;
+        min-height: 295px;
     }
+
+    .ship{
+        display: block;
+        padding: 30px 15px;
+        height: 100vh;
+    }
+    
+    h2.collected{
+        color: var(--primary);
+        font-family: "Playfair Display", sans-serif;
+    }
+    
+    .collected:hover{
+        color: #E95605;
+    }
+    
+    .branch p.text-list{
+        margin-top: 7px;
+        font-family: "Satoshi", sans-serif;
+        color: #2a5240;
+    }
+    
+    .wrapper-top{
+        border-radius: 10px;
+        width: 93%;
+        height: 70%;
+        overflow: hidden;
+    }
+    
+    .wrapper-top img:hover{
+        transform: scale(1.1);
+    }
+    
+    .wrapper-top img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    
+    .span-box{
+        margin-top: 1rem;
+    }
+    
+    .span-box a.list-wrapper{
+        color: #E95605;
+        font-size: 18px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    
+    a.list-wrapper:hover{
+        color: #2a5240;
+    }
+    
+    .money{
+        border-bottom: 2px solid var(--primary-brown);
+    }
+    
+    a.list-wrapper .money:hover{
+        border-bottom: 2px solid #2A5240;
+    }
+    
+    
+    .table-box{
+        padding: 100px 45px;
+        background: #2A5240;
+        margin-top: 4rem;
+    }
+    
+    .vice-set{
+        margin-top: 5px;
+        padding: 0px 15px;
+        display: block;
+    }
+    
+    .cloth{
+        margin-top: 1rem;
+        padding: 0px 15px;
+        justify-content: space-between;
+        display: block;
+    }
+    
+    .matter{
+        margin-top: 1rem;
+        padding: 0px 15px;
+        display: block;
+    }
+    
+    
+    .action{
+        margin-top: 2rem;
+        display:flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        background: #E8F8F1;
+        padding: 80px 15px;
+    }
+    
+    .action-one p{
+        font-size: 18px;
+        font-weight: 400;
+        color: #2A5240;
+    }
+    
+    .classic img{
+        width: 100%;
+        height: 22rem;
+    }
+    
+    
+    .group-lunch{
+        margin-top: 1rem;
+        padding: 10px 15px;
+        align-items: center;
+        text-align: center;
+        height: 130vh;
+    }
+
+    .group-lunch h6{
+        font-family: "Playfair Display", sans-serif;
+        color: #E95605;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .group-game{
+        align-items: center;
+        text-align: center;
+        padding: 10px 15px;
+    }
+    
+    .group-lunch h2{
+        margin-top: 10px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+
+    
+.code{
+    text-align: center;
+    margin-left: 1px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
+.coder-table{
+    padding: 20px 15px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+    margin-left: 4px;
+}
 
 }

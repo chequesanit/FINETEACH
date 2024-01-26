@@ -1749,9 +1749,10 @@ font-weight: 700;
     align-items: center;
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     gap: 4rem;
-    margin-left: 4rem;
     padding: 30px;
+    margin-left: 3rem;
 }
 
 .coder-table{
@@ -1760,7 +1761,7 @@ font-weight: 700;
     display: flex;
     gap: 3rem;
     margin-left: 14rem;
-    padding: 10px 0px;
+    padding: 0px 0px;
 }
 
 
