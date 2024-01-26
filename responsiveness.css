@@ -17,7 +17,7 @@
     }
 
     .img.cart{
-        margin-right: 12rem;
+        margin-right: 13rem;
     }
 
 
@@ -29,7 +29,8 @@
         border-radius: 0.5rem;
         padding: 0.1rem 0.3rem;
         position: absolute;
-        bottom: 23rem;
+        bottom: 2rem;
+
     }
 
     .navigation {
