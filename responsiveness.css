@@ -16,10 +16,6 @@
 
     }
 
-    .img.cart{
-        margin-right: 13rem;
-    }
-
 
     .notification-count {
         background: #E95605;
@@ -30,6 +26,7 @@
         padding: 0.1rem 0.3rem;
         position: absolute;
         bottom: 2rem;
+        display: none;
 
     }
 
